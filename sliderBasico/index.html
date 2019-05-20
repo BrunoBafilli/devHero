@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        .size {
+
+            width: 500px;
+            height: 200px;
+
+        }
+
+        .slide{
+            display: none;
+            color:#fff;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .active{
+
+            background-color: blue;
+            display: block !important;
+
+        }
+
+        .next {
+            width: 50px;
+            height: 50px;
+            background: green;
+            display: inline-block;
+        }
+
+        .back {
+            width: 50px;
+            height: 50px;
+            background: red;
+            display: inline-block;
+        }
+    </style>
+
+    <div class="next">=></div>
+    <div class="back"><=</div> 
+    
+    <div class="slider">
+
+            <div class="slide size">0</div>
+            <div class="slide size">1</div>
+            <div class="slide size">2</div>
+            <div class="slide size">3</div>
+            <div class="slide size">4</div>
+            <div class="slide size">5</div>
+
+
+    </div>
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
